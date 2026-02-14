@@ -1,0 +1,1 @@
+server/models/: Veritabanı tablolarının şemalarını (iskeletini) burada oluşturduk.

@@ -1,0 +1,18 @@
+### 1. Önce Kayıt Ol (Eğer daha önce olmadıysan)
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "ad": "Patron",
+  "email": "patron@gmail.com",
+  "sifre": "123456"
+}
+
+### 2. Şimdi Giriş Yap (Login)
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "patron@gmail.com",
+  "sifre": "123456"
+}

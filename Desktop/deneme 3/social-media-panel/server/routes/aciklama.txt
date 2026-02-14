@@ -1,0 +1,1 @@
+server/routes/: Frontend'den gelen isteklerin (istek atma, veri silme vb.) karşılandığı kapılar.
